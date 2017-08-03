@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Fake Blog</title>
+    </head>
+    <body>
+        <h1>Bouldering</h1>
+        <p>I like bouldering and below will list gyms and their sites.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Gym</td>
+                        <td>Website</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Seattle Bouldering Project</td>
+                        <td><a href="http://www.seattleboulderingproject.com">Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Vertical World</td>
+                        <td><a href="http://www.verticalworld.com">Here</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        <p>There are other types of rock climing as well:</p>
+        <ul>
+            <li>Trad</li>
+            <li>Sport</li>
+            <li>Free Solo</li>
+        </ul>
+        <div id="survey">
+            <form>
+                <h2>Random Survey</h2>
+                <p>Have You Climbed Before?</p>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="answer" value="yes">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="answer" value="no">
+                <p>Which gym would you like to go try?</p>
+                <input type="checkbox" id="sbp" name="gym" value="sbp">
+                <label for="sbp">Seattle Bouldering Project</label>
+                <br><br>
+                <input type="checkbox" id="vw" name="gym" value="vw">
+                <label for="vw">Vertical World</label>
+                <p>What type of climbing would you try?</p>
+                <select name="types">
+                    <option value="Trad">Trad</option>
+                    <option value="Sport">Sport</option>
+                    <option value="Free Solo">Free Solo</option>
+                    <option value="Bouldering">Bouldering</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
